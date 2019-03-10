@@ -1,0 +1,275 @@
+canvas {
+  	display: block;
+  	vertical-align: bottom;
+}
+
+#particles-js {
+  	position: absolute;
+  	width: 100%;
+  	height: 100%;
+  	background: #141414;
+}
+
+.text {
+  	position: absolute;
+  	top: 50%;
+  	right: 50%;
+  	-webkit-transform: translate(50%, -100%);
+          	transform: translate(50%, -100%);
+  	color: #fff;
+  	max-width: 90%;
+  	padding: 5px 2em;
+  	background: rgba(0, 0, 0, 0);
+ 	font-family: 'Open Sans', sans-serif;
+ 	text-align: center;
+  	font-size: 32px;
+}
+
+.text1 {
+  	padding-top: 30%;
+  	color: #fff;
+  	max-width: 90%;
+}
+.text2 {
+  	padding-top: 30%;
+  	color: #fff;
+  	max-width: 90%;
+	-webkit-transform: translate(5%, -50%);
+          	transform: translate(5%, -50%);
+}
+
+h1 {
+  	font-size: 5em;
+  	font-weight: 700;
+	letter-spacing: -1px;
+	padding-bottom: 0px; 
+}
+h4 {
+	font-size: 18px;
+	font-weight: 400;
+	letter-spacing: -1px;
+	padding-top: 2%;
+	padding-bottom: -5px;
+}
+
+p {
+	font-size: 16px;
+}
+
+img {
+	height: 24px;
+	width: 24px;
+	padding-top: 2%;
+}
+
+body, html{     
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;  
+}
+
+
+
+
+
+* {margin: 0; padding: 0;}
+
+a{
+	text-decoration: none;
+	color: #FFF;
+}
+
+.skills:hover {
+	color: #45fd9e;
+}
+
+.social-link-url:hover {
+	color: #45fd9e;
+}
+/* This class is added on scroll */
+.fixed {
+	position: fixed;
+	top: 0;
+	height: 70px;
+	z-index: 1;
+}
+
+body {
+	color: #fff;
+	font-family: 'open-sans-bold', AvenirNext-Medium, sans-serif;
+	text-align: center;
+}
+
+/* Navigation Settings */
+nav {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 70px;
+	background: rgba(0,0,0,0.00);
+}
+
+nav li {
+	display: inline-block;
+	padding: 24px 10px;
+}
+
+nav li a {
+	color: #D7D7D7;
+	text-transform: uppercase;
+}
+
+nav li a:hover {
+	color: #45fd9e;
+}
+
+@media only screen and (max-width: 520px) {
+
+	nav li {
+		padding: 24px 4px;
+	}
+
+	nav li a {
+		font-size: 14px;
+	}
+
+}
+
+div.gallery {
+	height: auto;
+    width: 350px;
+    margin: auto 5px;
+	display: inline-block;
+	text-align: center;
+	opacity: 1;
+}
+
+div.gallery:hover {
+    opacity: 0.8;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+html{ 
+	margin: 0; 
+	height: 100%; 
+	overflow: hidden;
+} 
+
+iframe { 
+	position: absolute; 
+	left:0; 
+	right:0; 
+	bottom:0; 
+	top:0; 
+	border:0;
+}
+
+
+
+.container-skillbar {
+		width:26%;
+		padding-top:25%;
+		height:auto;
+		overflow:none;
+    float: left;
+    margin-left: 9%;
+    padding-left: 0px;
+	}
+.container-skillbar1 {
+		width:26%;
+		padding-top:25%;
+		height:auto;
+		overflow:none;
+    float: left;
+    margin-right: 2%;
+    padding-right: 0px;
+    padding-left: 30px;
+	}
+.container-skillbar2 {
+		width:26%;
+		padding-top:25%;
+		height:auto;
+		overflow:none;
+    float: left;
+    margin-right: 2%;
+    margin-left: -2%;
+    padding-left: 30px;
+	}
+	.skillbar {
+		position:relative;
+		display:block;
+		margin-bottom:15px;
+		width:100%;
+		background:rgba(0,0,0,0.5);
+		height:30px;
+		border-radius:3px;
+		-moz-border-radius:3px;
+		-webkit-border-radius:3px;
+		-webkit-transition:0.4s linear;
+		-moz-transition:0.4s linear;
+		-ms-transition:0.4s linear;
+		-o-transition:0.4s linear;
+		transition:0.4s linear;
+		-webkit-transition-property:width, background-color;
+		-moz-transition-property:width, background-color;
+		-ms-transition-property:width, background-color;
+		-o-transition-property:width, background-color;
+		transition-property:width, background-color;
+	}
+
+	.skillbar-title {
+		position:absolute;
+		top:0;
+		left:0;
+		width:110px;
+		font-weight:bold;
+		font-size:13px;
+		color:#141414;
+		background:#6adcfa;
+		-webkit-border-top-left-radius:3px;
+		-webkit-border-bottom-left-radius:4px;
+		-moz-border-radius-topleft:3px;
+		-moz-border-radius-bottomleft:3px;
+		border-top-left-radius:3px;
+		border-bottom-left-radius:3px;
+	}
+
+	.skillbar-title span {
+		display:block;
+		background:rgba(0, 0, 0, 0.15);
+		padding:0 20px;
+		height:30px;
+		line-height:30px;
+		-webkit-border-top-left-radius:3px;
+		-webkit-border-bottom-left-radius:3px;
+		-moz-border-radius-topleft:3px;
+		-moz-border-radius-bottomleft:3px;
+		border-top-left-radius:3px;
+		border-bottom-left-radius:3px;
+	}
+
+	.skillbar-bar {
+		height:30px;
+		width:0px;
+		border-radius:3px;
+		-moz-border-radius:3px;
+		-webkit-border-radius:3px;
+	}
+
+	.skill-bar-percent {
+		position:absolute;
+		right:10px;
+		top:0;
+		font-size:11px;
+		height:30px;
+		line-height:30px;
+		color:#ffffff;
+		color:rgba(0, 0, 0, 0.5);
+	}
